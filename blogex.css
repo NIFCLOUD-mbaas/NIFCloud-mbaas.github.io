@@ -254,8 +254,8 @@ figure {
   margin-left: 0;
 }
 .entry-content img {
-    width: none;
-    height: none;
+    width: auto;
+    height: auto;
 }
 
 /* ======================================
