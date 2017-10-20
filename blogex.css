@@ -249,9 +249,9 @@ body {
 /* **************************
   [7] figure左右マージン0
 ************************** */
-.entry-content figure {
-  margin-right: 0,
-  margin-left: 0;
+figure {
+  margin-right: 0px,
+  margin-left: 0px;
 }
 
 
