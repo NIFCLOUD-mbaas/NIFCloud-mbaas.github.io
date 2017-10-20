@@ -250,7 +250,7 @@ body {
   [7] figure左右マージン0
 ************************** */
 figure {
-  margin-right: 0,
+  margin-right: 0;
   margin-left: 0;
 }
 
