@@ -266,11 +266,11 @@ figure {
     padding: 1em 2em;
 }
 
+.entry-content li {
+    margin-bottom: 8px;
+}
 .entry-content ul {
-    position: relative;
-    background: #ddd;
-    display: block;
-    margin: 0 0 .5em;
-    font-weight: bold;
-    font-size: 1.8rem;
+    margin: 0px 0px 40px 24px;
+    list-style: disc;
+    color: #333;
 }
