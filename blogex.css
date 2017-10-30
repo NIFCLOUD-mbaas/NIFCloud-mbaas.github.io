@@ -98,20 +98,11 @@ body {
   font-size: 1.4rem;
 }
 
-.author-sns li {
-  display: inline-block;
-  margin-right: 4px;
-  padding: 0;
-  height: 32px;
-  width: 32px;
-  line-height: 32px;
-}
-
-.avatar {
+.author-avatar {
   float: left;
 }
 
-.avatar img {
+.author-avatar img {
   border: 1px solid #e2e5e8;
   border-radius: 50%;
 }
