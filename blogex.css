@@ -83,6 +83,10 @@ body {
 
 .author-heading p{
     width:95%;
+    padding-left: 5%;
+    padding-bottom: 0;
+    padding-right: 0;
+    
 }
 
 .author-inner {
