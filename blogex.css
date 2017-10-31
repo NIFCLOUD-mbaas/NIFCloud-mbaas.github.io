@@ -64,6 +64,31 @@ body {
   [5] BIO装飾
 ************************** */
 
+/* BIOフォーマット
+<div class="author-box">
+    <div class="author-heading">
+        <p>この記事を書いた人</p>
+    </div>
+    <div class="author-inner">
+        <div class="author-left">
+	    <!--写真-->
+	    <img class="author-photo" alt='YOUR_NAME' src='PHOTO_URL'>
+        </div>
+        <div class="author-right">
+	    <div class="writer-name">
+                <!--名前-->
+	        YOUR_NAME
+	    </div>
+            <div class="author-prof">
+                <!--プロフ文-->
+                YOUR_PROF
+            </div>
+        </div>
+    </div>
+</div>
+*/
+
+
 .author-box{
     display: block;
     border: solid 2px #ddd;
@@ -124,14 +149,14 @@ body {
     line-height:50px;
     font-weight:bold;
     font-size:18px;
-    padding-left:15px;
+/*     padding-left:15px; */
     padding-top: 5px;
 }
 
 .author-prof{
     height:50px;
     font-size:12px;
-    padding:0px 15px;
+/*     padding:0px 15px; */
     line-height:1.5;
 }
 
