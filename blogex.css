@@ -63,9 +63,6 @@ body {
 /* **************************
   [5] BIO装飾
 ************************** */
-
-/* Component */
-
 .c-avatar {
  
   width: 120px;
@@ -88,37 +85,6 @@ body {
   margin: 0;
 }
 
-.c-sns {
-  list-style-type: none;
-  display: flex;
-  padding: 0;
-  margin: 0;
-  >li {
-    margin-right: 16px;
-    &:last-child {
-      margin-right: 0;
-    }
-  }
-}
-
-.c-btn {
-  display: inline-block;
-  line-height: 1.25;
-  text-align: center;
-  white-space: nowrap;
-  vertical-align: middle;
-  cursor: pointer;
-  border: 1px solid transparent;
-  padding: .5rem 1rem;
-  border-radius: .25rem;
-  background-color: #60abb9;
-  color: #fff;
-  font-size: .8rem;
-  padding: .5rem .8rem;
-  white-space: initial;
-}
-
-
 /*Project*/
 
 .p-author{
@@ -126,6 +92,8 @@ body {
   padding: 1rem;
   border-top:1px solid #000;
   border-bottom: 1px solid #000;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 .p-author__avatar-btn{
