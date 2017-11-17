@@ -63,6 +63,20 @@ body {
 /* **************************
   [5] BIO装飾
 ************************** */
+/*<div class="p-author">
+  <div class="p-author__avatar-btn">
+  <div class="p-author__avatar c-avatar">
+    <img src="https://cdn-ak.f.st-hatena.com/images/fotolife/m/mbaasdevrel/20171117/20171117110421.jpg">
+  </div>
+    </div>
+  <div class="p-author__body">
+    <p class="c-txt-bold">中津川篤司</p>
+    <p class="c-txt-basic p-author__info">
+      プログラマ、エンジニアとしていくつかの企業で働き、28歳のときに独立。2004年、まだ情報が少なかったオープンソースソフトの技術ブログ『MOONGIFT』を開設し、毎日情報を発信している。2013年に法人化、ビジネスとエンジニアを結ぶエバンジェリスト業「DevRel」活動をスタートした。
+    </p>
+  </div>
+</div>*/
+
 .c-avatar {
  
   width: 120px;
@@ -84,8 +98,6 @@ body {
   font-size: 1.3rem;
   margin: 0;
 }
-
-/*Project*/
 
 .p-author{
   display: flex;
