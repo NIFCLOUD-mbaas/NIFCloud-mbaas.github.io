@@ -83,9 +83,9 @@ body {
   height: 120px;
   overflow: hidden;
   img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 50%;
+  border-radius: 60px;
+  height: 120px;
+  width: 120px;
 	}
 }
 
