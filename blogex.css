@@ -89,7 +89,8 @@ body {
 
 .p-author{
   display: flex;
-  padding: 1rem;
+  padding-top: 15px;
+  padding-bottom: 15px;
   border-top:1px solid #000;
   border-bottom: 1px solid #000;
   margin-bottom: 20px;
