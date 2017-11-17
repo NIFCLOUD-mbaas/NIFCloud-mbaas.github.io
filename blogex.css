@@ -79,57 +79,7 @@ body {
 </div>
 */
 
-.author-profile {
-  padding: 16px;
-  border: 4px solid #e2e5e8;
-}
-
-.author-profile h3 {
-  margin: 0 0 16px 0;
-  padding: 4px 0 4px 8px;
-  border-left: 4px solid #e2e5e8;
-}
-
-.author-profile-content:after {
-  display: block;
-  clear: both;
-  content: "";
-}
-
-.author-profile-text {
-  margin-left: 104px;
-}
-
-.author-profile-text h4 {
-  margin: 0;
-  font-size: 16px;
-  font-size: 1.6rem;
-}
-
-.author-profile-text p {
-  margin: 8px 0;
-  font-size: 14px;
-  font-size: 1.4rem;
-}
-
-.author-sns li {
-  display: inline-block;
-  margin-right: 4px;
-  padding: 0;
-  height: 32px;
-  width: 32px;
-  line-height: 32px;
-}
-
-.avatar {
-  float: left;
-}
-
-.avatar img {
-  border: 1px solid #e2e5e8;
-  border-radius: 50%;
-}
-
+.hs-author-avatar{text-align:center}.hs-author-avatar>img{border:3px solid #fff;margin-bottom:.5em}.hs-author-profile.alert{background-color:#efefef;border:none;border-radius:0}.hs-author-name{margin-top:.5em;font-size:22px}.hs-author-bio{margin-bottom:1em}.hs-author-social-links .website{margin-left:5px}@media(max-width:767px){.hs-author-avatar>img{width:120px}.hs-author-name{font-size:1.6rem;text-align:center}}
 /* **************************
   [6] ソーシャルボタン
 ************************** */
