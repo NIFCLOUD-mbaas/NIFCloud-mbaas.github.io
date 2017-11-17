@@ -121,6 +121,15 @@ body {
   line-height: 32px;
 }
 
+.avatar {
+  float: left;
+}
+
+.avatar img {
+  border: 1px solid #e2e5e8;
+  border-radius: 50%;
+}
+
 /* **************************
   [6] ソーシャルボタン
 ************************** */
