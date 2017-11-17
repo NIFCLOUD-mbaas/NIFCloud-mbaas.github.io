@@ -64,22 +64,84 @@ body {
   [5] BIO装飾
 ************************** */
 
-/* BIOフォーマット
-<div class="author-profile">
-  <h3 class="author-profile-heading">この記事を書いた人</h3>
-  <div class="author-profile-content">
-    <div class="avatar">
-     <img alt="中津川篤司" src="https://cdn-ak.f.st-hatena.com/images/fotolife/m/mbaasdevrel/20171117/20171117110421.jpg">
-    </div>
-    <div class="author-profile-text vcard author">
-      <h4><a href="https://press.monaca.io/author/atsushi">中津川篤司 </a></h4>
-      <p>NCMBエヴァンジェリスト。プログラマ、エンジニアとしていくつかの企業で働き、28歳で独立。 2004年1月よりOSS情報ブログMOONGIFTを開設、毎日情報を発信している。2013年に法人化。</p>
-    </div>
-  </div>
-</div>
-*/
+/* Component */
 
-.hs-author-avatar{text-align:center}.hs-author-avatar>img{border:3px solid #fff;margin-bottom:.5em}.hs-author-profile.alert{background-color:#efefef;border:none;border-radius:0}.hs-author-name{margin-top:.5em;font-size:22px}.hs-author-bio{margin-bottom:1em}.hs-author-social-links .website{margin-left:5px}@media(max-width:767px){.hs-author-avatar>img{width:120px}.hs-author-name{font-size:1.6rem;text-align:center}}
+.c-avatar {
+ 
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  overflow: hidden;
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+.c-txt-bold {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin: 0;
+}
+.c-txt-basic {
+  font-size: 1.0rem;
+  margin: 0;
+}
+
+.c-sns {
+  list-style-type: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  >li {
+    margin-right: 16px;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
+
+.c-btn {
+  display: inline-block;
+  line-height: 1.25;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  border: 1px solid transparent;
+  padding: .5rem 1rem;
+  border-radius: .25rem;
+  background-color: #60abb9;
+  color: #fff;
+  font-size: .8rem;
+  padding: .5rem .8rem;
+  white-space: initial;
+}
+
+
+/*Project*/
+
+.p-author{
+  display: flex;
+  padding: 1rem;
+  border-top:1px solid #000;
+  border-bottom: 1px solid #000;
+}
+
+.p-author__avatar-btn{
+  display: flex;
+  flex-direction:column;
+  margin-right: 20px;
+  align-items: center;
+}
+
+.p-author__avatar{
+  margin: 0 1rem 1rem;
+}
+.p-author__info{
+  margin: 1rem 0;
+}
+
 /* **************************
   [6] ソーシャルボタン
 ************************** */
