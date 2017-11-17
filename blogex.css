@@ -81,12 +81,12 @@ body {
  
   width: 120px;
   height: 120px;
-  border-radius: 50%;
   overflow: hidden;
   img {
     max-width: 100%;
     height: auto;
-  }
+    border-radius: 50%;
+	}
 }
 
 .c-txt-bold {
